@@ -1,0 +1,113 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+
+body {
+    background: #2b2b2b;
+}
+
+.upper {
+    background: #ccc;
+    text-align: center;
+    height: 20vh;
+    padding: 2em;
+    font-size: 3rem;
+}
+
+.strip {
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    margin-left: 4em;
+    padding: 9px;
+    border: 1px solid #aaa;
+    border-radius: 9px;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0.5px 0px 5px 1px #a9a9a9;
+}
+
+.reset:hover {
+    cursor: pointer;
+    background: #2b2b2b;
+    color: #f9f9f9;
+    border: 1px solid;
+    box-shadow: 0.5px 0px 5px 1px #f9f9f9;
+
+}
+
+#message {
+    margin-left: 2em;
+    padding: 9px;
+    border: 1px solid #aaa;
+    border-radius: 9px;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0.5px 0px 5px 1px #a9a9a9;
+}
+
+#message:hover {
+    cursor:none;
+    background: #2b2b2b;
+    color: #f9f9f9;
+    border: 1px solid;
+    box-shadow: 0.5px 0px 5px 1px #f9f9f9;
+}
+
+.level {
+    display: flex;
+    margin: 4px 22px 4px auto;
+    align-items: center;
+}
+
+.level div {
+    padding: 9px;
+    border: 1px solid #aaa;
+    border-radius: 9px;
+    letter-spacing: 1px;
+    margin: 0 6px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0.5px 0px 5px 1px #a9a9a9;
+}
+
+.level div:hover {
+    cursor: pointer;
+    background: #2b2b2b;
+    color: #f9f9f9;
+    border: 1px solid;
+    box-shadow: 0.5px 0px 5px 1px #f9f9f9;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.square {
+    margin: 10px -4px 10px 28px;
+    border-radius: 20px;
+    width: 11rem;
+    height: 11rem;
+    background: #a9a9a9;
+    float: left;
+    transition: all 0.5s;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background: #2b2b2b;
+    color: #f9f9f9;
+    border: 1px solid;
+    box-shadow: 0.5px 0px 5px 1px #f9f9f9;
+}
